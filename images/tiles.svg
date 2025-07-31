@@ -39,14 +39,14 @@
 
     <!-- Glassmorphism background gradients -->
     <linearGradient id="glassGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:rgba(255,255,255,0.4);stop-opacity:1"/>
-      <stop offset="50%" style="stop-color:rgba(255,255,255,0.2);stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:rgba(255,255,255,0.15);stop-opacity:1"/>
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.25);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgba(255,255,255,0.1);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05);stop-opacity:1"/>
     </linearGradient>
 
     <radialGradient id="glassRadial" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" style="stop-color:rgba(255,255,255,0.45);stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:rgba(255,255,255,0.18);stop-opacity:1"/>
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.3);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.08);stop-opacity:1"/>
     </radialGradient>
 
     <!-- Blur filter for glassmorphism effect -->
@@ -65,14 +65,14 @@
   
   <!-- Base layer with subtle gradient -->
   <rect x="0" y="0" width="800" height="400" rx="24" ry="24" 
-        fill="rgba(248,250,255,0.25)" 
+        fill="rgba(248,250,255,0.08)" 
         stroke="none"/>
   
   <!-- Primary glass layer -->
   <rect x="0" y="0" width="800" height="400" rx="24" ry="24" 
         fill="url(#glassGrad1)" 
-        stroke="rgba(255,255,255,0.35)" 
-        stroke-width="2"/>
+        stroke="rgba(255,255,255,0.18)" 
+        stroke-width="1.5"/>
   
   <!-- Secondary glass layer with radial gradient -->
   <rect x="0" y="0" width="800" height="400" rx="24" ry="24" 
@@ -163,7 +163,7 @@
   
   <!-- Final glass overlay for unified effect -->
   <rect x="0" y="0" width="800" height="400" rx="24" ry="24" 
-        fill="rgba(255,255,255,0.08)" 
-        stroke="rgba(255,255,255,0.4)" 
-        stroke-width="1.5"/>
+        fill="rgba(255,255,255,0.03)" 
+        stroke="rgba(255,255,255,0.25)" 
+        stroke-width="1"/>
 </svg>
